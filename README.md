@@ -3,10 +3,10 @@
 anonymous repo for IJCAI 2022 
 
 ## Requirements
-torch
-pandas
-numpy
-tqdm
++torch
++pandas
++numpy
++tqdm
 
 ## Usage
 
