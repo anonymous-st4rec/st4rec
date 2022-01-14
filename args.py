@@ -20,15 +20,15 @@ parser.add_argument('--max_len', type=int, default=30)
 parser.add_argument('--train_batch_size', type=int, default=256) 
 parser.add_argument('--test_batch_size', type=int, default=256)
 
-#2 sasrec args 
-parser.add_argument('--d_model', type=int, default=128) # size of embedding
+# sasrec args 
+parser.add_argument('--d_model', type=int, default=128) #dimension of embedding
 parser.add_argument('--enable_res_parameter', type=int, default=1) 
 parser.add_argument('--attn_heads', type=int, default=4)
 parser.add_argument('--dropout', type=float, default=0.2) 
 parser.add_argument('--d_ffn', type=int, default=512) 
 parser.add_argument('--sasrec_layers', type=int, default=16) 
 
-#4 st4rec args
+# st4rec args
 parser.add_argument('--temperature', type=float, default=1)  
 parser.add_argument('--onehot', type=int, default=1) 
 parser.add_argument('--le_lambda', type=float, default=0.9) 
