@@ -12,7 +12,6 @@ class Trainer():
         print(self.device)
         self.model = model.to(torch.device(self.device))
         self.train_loader = train_loader
-        self.test_loader = test_loader
         self.val_loader = val_loader
         self.test_loader = test_loader
         self.lr_decay = args.lr_decay_rate
